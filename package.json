@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "rm -fr node_modules && rm -fr .nuxt && rm -fr .output",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -10,15 +11,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@sentry/nuxt": "^9",
-    "nuxt": "^3.17.6",
-    "vue": "^3.5.17",
+    "nuxt": "^4.1.2",
+    "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@10.6.5+sha256.47c8bca42b4b48534b5b1b28d573c506773937b02f68e52992fbd8269131c5c8",
-  "pnpm": {
-    "overrides": {
-      "@vercel/nft": "^0.27.4"
-    }
-  }
+  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a"
 }

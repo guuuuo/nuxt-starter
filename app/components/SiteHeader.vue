@@ -4,10 +4,10 @@
 <template>
   <header>
     <NuxtLink to="/">
-        <div>Home Page</div>
+        <div>Home</div>
     </NuxtLink>
-    <NuxtLink to="/sentry-example-page">
-        <div>Sentry Example Page</div>
+    <NuxtLink to="/about">
+        <div>About</div>
     </NuxtLink>
   </header>
 </template>
