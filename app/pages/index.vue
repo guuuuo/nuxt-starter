@@ -1,6 +1,8 @@
 <!-- ./pages/index.vue -->
 <template>
-  <HelloWorld/>
+  <div class="home-page">
+    <h1>Welcome</h1>
+  </div>
 </template>
 
 <script setup>
@@ -18,3 +20,11 @@ onMounted(async () => {
   console.log('onMounted() executed.');
 });
 </script>
+
+<style scoped>
+.home-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+</style>

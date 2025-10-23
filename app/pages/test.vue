@@ -8,6 +8,7 @@
     </header>
   </div>
 </template>
+
 <script setup>
 onMounted(async () => {
   test();
